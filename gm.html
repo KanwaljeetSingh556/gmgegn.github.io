@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        background-image: url(https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+        
+      
+        background-attachment: fixed;
+    }
+    #container{
+        border: 2px solid green;
+        height: 300px;
+        width: 300px;
+        margin: 15% 25% 15% 25%;
+        padding: 60px;
+        box-shadow: 15px 15px 15px orange;
+
+
+    }
+    h1{
+        color: white;
+    }
+
+
+</style>
+
+    <script>
+    function func(){
+
+num = document.getElementById('Text')
+num.innerHTML = "good morning kawal"
+num.style.color = "red"
+
+    }
+    function func2(){
+        num = document.getElementById('Text')
+        num.innerHTML = "good evening kawal"
+        num.style.color = "green"
+    }
+
+    function func3(){
+        num = document.getElementById('Text')
+        num.innerHTML = "good night kawal"
+        num.style.color = "brown"
+    }
+
+
+    </script>
+</head>
+<body>
+    <div id="container">
+        <h1 id="Text"> hii kawaljeet</h1>
+
+        <button   onclick= "func()" id="btn1"> good morning </button> <button   onclick="func2()" id="btn2">goodevening</button> <button   onclick="func3()" id="btn3">goodnight</button>
+
+    </div>
+    
+</body>
+</html>
